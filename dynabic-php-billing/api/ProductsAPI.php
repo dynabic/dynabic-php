@@ -467,7 +467,7 @@ class ProductsAPI {
 		$resourcePath = "/products/{productId}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
-		$method = "POST";
+		$method = "DELETE";
         $queryParams = array();
         $headerParams = array();
     
