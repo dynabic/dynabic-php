@@ -33,10 +33,12 @@ class ProductMeteredPriceResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -45,10 +47,12 @@ class ProductMeteredPriceResponse {
 	 public $end_quantity;// float
 
 
+
     /**
      * 
      */
 	 public $product_item_id;// int
+
 
 
     /**
@@ -57,10 +61,12 @@ class ProductMeteredPriceResponse {
 	 public $start_quantity;// float
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**

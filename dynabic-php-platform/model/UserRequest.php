@@ -42,10 +42,12 @@ class UserRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $user_roles;// string
+
 
 
     /**
@@ -54,10 +56,12 @@ class UserRequest {
 	 public $password;// string
 
 
+
     /**
      * 
      */
 	 public $deleted;// bool
+
 
 
     /**
@@ -66,10 +70,12 @@ class UserRequest {
 	 public $is_subscribed_to_newsletter;// bool
 
 
+
     /**
      * 
      */
 	 public $country;// string
+
 
 
     /**
@@ -78,10 +84,12 @@ class UserRequest {
 	 public $currency;// string
 
 
+
     /**
      * 
      */
 	 public $first_name;// string
+
 
 
     /**
@@ -90,10 +98,12 @@ class UserRequest {
 	 public $timezone;// string
 
 
+
     /**
      * 
      */
 	 public $googleapps_user_name;// string
+
 
 
     /**
@@ -102,10 +112,12 @@ class UserRequest {
 	 public $email;// string
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**
@@ -114,16 +126,19 @@ class UserRequest {
 	 public $active;// bool
 
 
+
     /**
      * 
      */
 	 public $yahoo_user_name;// string
 
 
+
     /**
      * 
      */
 	 public $facebook_id;// string
+
 
 
     /**

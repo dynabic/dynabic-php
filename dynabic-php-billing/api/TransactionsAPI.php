@@ -27,6 +27,7 @@ class TransactionsAPI {
 	}
 
 
+
 	/**
 	 * GetTransactionsForSite
 	 *
@@ -51,12 +52,15 @@ class TransactionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -77,6 +81,7 @@ class TransactionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -103,12 +108,15 @@ class TransactionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -129,6 +137,7 @@ class TransactionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -155,12 +164,15 @@ class TransactionsAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}

@@ -31,10 +31,12 @@ class ProductFamilyRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**
@@ -43,10 +45,12 @@ class ProductFamilyRequest {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $site_id;// int
+
 
 
     /**

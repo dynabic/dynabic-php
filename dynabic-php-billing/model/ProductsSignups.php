@@ -31,10 +31,12 @@ class ProductsSignups {
     );
 
 
+
     /**
      * 
      */
 	 public $product;// string
+
 
 
     /**
@@ -43,10 +45,12 @@ class ProductsSignups {
 	 public $signups;// float
 
 
+
     /**
      * 
      */
 	 public $product_id;// int
+
 
 
     /**

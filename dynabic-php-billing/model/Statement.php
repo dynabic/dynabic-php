@@ -41,10 +41,12 @@ class Statement {
     );
 
 
+
     /**
      * 
      */
 	 public $subscription_id;// int
+
 
 
     /**
@@ -53,10 +55,12 @@ class Statement {
 	 public $status;// string
 
 
+
     /**
      * 
      */
 	 public $statement_date;// string
+
 
 
     /**
@@ -65,10 +69,12 @@ class Statement {
 	 public $current_charges;// float
 
 
+
     /**
      * 
      */
 	 public $customer_first_name;// string
+
 
 
     /**
@@ -77,10 +83,12 @@ class Statement {
 	 public $billing_address_id;// int
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -89,10 +97,12 @@ class Statement {
 	 public $statement_details =  array();// array<StatementDetail>
 
 
+
     /**
      * 
      */
 	 public $customer_last_name;// string
+
 
 
     /**
@@ -101,10 +111,12 @@ class Statement {
 	 public $starting_balance;// float
 
 
+
     /**
      * 
      */
 	 public $payments_and_credits;// float
+
 
 
     /**
@@ -113,10 +125,12 @@ class Statement {
 	 public $email;// string
 
 
+
     /**
      * 
      */
 	 public $billing_start_date;// string
+
 
 
     /**

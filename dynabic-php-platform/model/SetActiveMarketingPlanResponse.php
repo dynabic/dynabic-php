@@ -29,10 +29,12 @@ class SetActiveMarketingPlanResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $success;// bool
+
 
 
     /**

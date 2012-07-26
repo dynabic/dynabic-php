@@ -32,10 +32,12 @@ class ApplicationInCompanyResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -44,16 +46,19 @@ class ApplicationInCompanyResponse {
 	 public $added;// string
 
 
+
     /**
      * 
      */
 	 public $updated;// string
 
 
+
     /**
      * 
      */
 	 public $active;// bool
+
 
 
     /**

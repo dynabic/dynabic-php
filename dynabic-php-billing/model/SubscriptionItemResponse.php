@@ -31,10 +31,12 @@ class SubscriptionItemResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $subscription_id;// int
+
 
 
     /**
@@ -43,10 +45,12 @@ class SubscriptionItemResponse {
 	 public $product_item_id;// int
 
 
+
     /**
      * 
      */
 	 public $quantity;// float
+
 
 
     /**

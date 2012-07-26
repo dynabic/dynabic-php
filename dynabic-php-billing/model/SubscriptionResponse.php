@@ -53,10 +53,12 @@ class SubscriptionResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $signup_date;// string
+
 
 
     /**
@@ -65,10 +67,12 @@ class SubscriptionResponse {
 	 public $product_id;// int
 
 
+
     /**
      * 
      */
 	 public $service_result;// ServiceResult
+
 
 
     /**
@@ -77,10 +81,12 @@ class SubscriptionResponse {
 	 public $next_product;// ProductResponse
 
 
+
     /**
      * 
      */
 	 public $customer;// CustomerResponse
+
 
 
     /**
@@ -89,10 +95,12 @@ class SubscriptionResponse {
 	 public $next_assesment;// string
 
 
+
     /**
      * 
      */
 	 public $cancellation_details;// string
+
 
 
     /**
@@ -101,10 +109,12 @@ class SubscriptionResponse {
 	 public $billing_address_id;// int
 
 
+
     /**
      * 
      */
 	 public $currency;// Currency
+
 
 
     /**
@@ -113,10 +123,12 @@ class SubscriptionResponse {
 	 public $product_pricing_plan;// PricingPlanResponse
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -125,10 +137,12 @@ class SubscriptionResponse {
 	 public $end_date;// string
 
 
+
     /**
      * 
      */
 	 public $credit_card;// CreditCardResponse
+
 
 
     /**
@@ -137,10 +151,12 @@ class SubscriptionResponse {
 	 public $current_ballance;// float
 
 
+
     /**
      * 
      */
 	 public $revenue;// float
+
 
 
     /**
@@ -149,10 +165,12 @@ class SubscriptionResponse {
 	 public $status;// string
 
 
+
     /**
      * 
      */
 	 public $is_cancelled_at_end_of_period;// bool
+
 
 
     /**
@@ -161,10 +179,12 @@ class SubscriptionResponse {
 	 public $next_product_pricing_plan;// PricingPlanResponse
 
 
+
     /**
      * 
      */
 	 public $cancellation_date;// string
+
 
 
     /**
@@ -173,10 +193,12 @@ class SubscriptionResponse {
 	 public $product;// ProductResponse
 
 
+
     /**
      * 
      */
 	 public $credit_card_id;// int
+
 
 
     /**
@@ -185,10 +207,12 @@ class SubscriptionResponse {
 	 public $is_trial;// bool
 
 
+
     /**
      * 
      */
 	 public $pricing_plan_id;// int
+
 
 
     /**
@@ -197,10 +221,12 @@ class SubscriptionResponse {
 	 public $start_date;// string
 
 
+
     /**
      * 
      */
 	 public $customer_id;// int
+
 
 
     /**

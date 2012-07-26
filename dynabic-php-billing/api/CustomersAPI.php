@@ -27,6 +27,7 @@ class CustomersAPI {
 	}
 
 
+
 	/**
 	 * GetAllCustomers
 	 *
@@ -51,12 +52,15 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -77,6 +81,7 @@ class CustomersAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -101,6 +106,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -120,6 +126,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -145,9 +152,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($referenceId != null) {
 			$resourcePath = str_replace("{referenceId}", $this->apiClient->toPathValue($referenceId), $resourcePath);
 		}
@@ -167,6 +176,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -192,6 +202,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -211,6 +222,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -236,6 +248,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -255,6 +268,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -278,6 +292,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -289,6 +304,7 @@ class CustomersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -313,6 +329,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($creditCardId != null) {
 			$resourcePath = str_replace("{creditCardId}", $this->apiClient->toPathValue($creditCardId), $resourcePath);
 		}
@@ -332,6 +349,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -356,6 +374,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -378,21 +397,23 @@ class CustomersAPI {
 	 }
 
 
+
 	/**
 	 * GetCreditCardsByReferenceId
 	 *
 	 * 
 	 * 
-   * @param customerReferenceId  customer Reference Id
+   * @param siteSubdomain  site Subdomain
+   *  @param customerReferenceId  customer Reference Id
    *  
 	 * @return Array<CreditCardResponse> {@link CreditCardResponse} 
 	 * @throws APIException 
 	 */
 
-	 public function GetCreditCardsByReferenceId($customerReferenceId) {
+	 public function GetCreditCardsByReferenceId($siteSubdomain, $customerReferenceId) {
 
 		//parse inputs
-		$resourcePath = "/customers/reference-id/{customerReferenceId}/credit-cards.{format}";
+		$resourcePath = "/customers/{siteSubdomain}/reference-id/{customerReferenceId}/credit-cards.{format}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
 		$method = "GET";
@@ -400,6 +421,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
+		if($siteSubdomain != null) {
+			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
+		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
@@ -420,6 +446,7 @@ class CustomersAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -444,6 +471,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -465,21 +493,23 @@ class CustomersAPI {
 	 }
 
 
+
 	/**
 	 * GetFirstCreditCardForCustomerByReferenceId
 	 *
 	 * 
 	 * 
-   * @param customerReferenceId  customer Reference Id
+   * @param siteSubdomain  site Subdomain
+   *  @param customerReferenceId  customer Reference Id
    *  
 	 * @return CreditCardResponse {@link CreditCardResponse} 
 	 * @throws APIException 
 	 */
 
-	 public function GetFirstCreditCardForCustomerByReferenceId($customerReferenceId) {
+	 public function GetFirstCreditCardForCustomerByReferenceId($siteSubdomain, $customerReferenceId) {
 
 		//parse inputs
-		$resourcePath = "/customers/reference-id/{customerReferenceId}/credit-card.{format}";
+		$resourcePath = "/customers/{siteSubdomain}/reference-id/{customerReferenceId}/credit-card.{format}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
 		$method = "GET";
@@ -487,6 +517,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
+		if($siteSubdomain != null) {
+			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
+		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
@@ -506,6 +541,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -531,6 +567,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -550,6 +587,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -576,9 +614,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
+
 		if($creditCardId != null) {
 			$resourcePath = str_replace("{creditCardId}", $this->apiClient->toPathValue($creditCardId), $resourcePath);
 		}
@@ -598,6 +638,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -625,12 +666,15 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomanin != null) {
 			$resourcePath = str_replace("{siteSubdomanin}", $this->apiClient->toPathValue($siteSubdomanin), $resourcePath);
 		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
+
 		if($creditCardId != null) {
 			$resourcePath = str_replace("{creditCardId}", $this->apiClient->toPathValue($creditCardId), $resourcePath);
 		}
@@ -650,6 +694,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -674,9 +719,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
+
 		if($creditCardId != null) {
 			$resourcePath = str_replace("{creditCardId}", $this->apiClient->toPathValue($creditCardId), $resourcePath);
 		}
@@ -688,6 +735,7 @@ class CustomersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -712,6 +760,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -732,6 +781,7 @@ class CustomersAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -756,6 +806,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -775,6 +826,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -800,9 +852,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
@@ -822,6 +876,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -847,6 +902,7 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -866,6 +922,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -892,9 +949,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
+
 		if($billingAddressId != null) {
 			$resourcePath = str_replace("{billingAddressId}", $this->apiClient->toPathValue($billingAddressId), $resourcePath);
 		}
@@ -914,6 +973,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -941,12 +1001,15 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
+
 		if($billingAddressId != null) {
 			$resourcePath = str_replace("{billingAddressId}", $this->apiClient->toPathValue($billingAddressId), $resourcePath);
 		}
@@ -966,6 +1029,7 @@ class CustomersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -990,9 +1054,11 @@ class CustomersAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
+
 		if($billingAddressId != null) {
 			$resourcePath = str_replace("{billingAddressId}", $this->apiClient->toPathValue($billingAddressId), $resourcePath);
 		}

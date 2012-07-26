@@ -31,10 +31,12 @@ class SettingRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**
@@ -43,10 +45,12 @@ class SettingRequest {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $value;// string
+
 
 
     /**

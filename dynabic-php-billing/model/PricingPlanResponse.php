@@ -36,10 +36,12 @@ class PricingPlanResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -48,10 +50,12 @@ class PricingPlanResponse {
 	 public $product_id;// int
 
 
+
     /**
      * 
      */
 	 public $trial_period_duration_days;// int
+
 
 
     /**
@@ -60,10 +64,12 @@ class PricingPlanResponse {
 	 public $trial_period_charge;// float
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -72,16 +78,19 @@ class PricingPlanResponse {
 	 public $upfront_charge;// float
 
 
+
     /**
      * 
      */
 	 public $product_items =  array();// array<ProductItemResponse>
 
 
+
     /**
      * 
      */
 	 public $pricing_plan_payment_schedules =  array();// array<ProductPricingPlanPaymentScheduleResponse>
+
 
 
     /**

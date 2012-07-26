@@ -29,10 +29,12 @@ class ApplicationResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**

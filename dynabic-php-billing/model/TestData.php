@@ -70,10 +70,12 @@ class TestData {
     );
 
 
+
     /**
      * 
      */
 	 public $addressList;// Array<Address>
+
 
 
     /**
@@ -82,10 +84,12 @@ class TestData {
 	 public $stateProvinceList;// Array<StateProvince>
 
 
+
     /**
      * 
      */
 	 public $countryList;// Array<Country>
+
 
 
     /**
@@ -94,10 +98,12 @@ class TestData {
 	 public $addressRequestList;// Array<AddressRequest>
 
 
+
     /**
      * 
      */
 	 public $customerResponseList;// Array<CustomerResponse>
+
 
 
     /**
@@ -106,10 +112,12 @@ class TestData {
 	 public $creditCardResponseList;// Array<CreditCardResponse>
 
 
+
     /**
      * 
      */
 	 public $customerRequestList;// Array<CustomerRequest>
+
 
 
     /**
@@ -118,10 +126,12 @@ class TestData {
 	 public $creditCardRequestList;// Array<CreditCardRequest>
 
 
+
     /**
      * 
      */
 	 public $addressResponseList;// Array<AddressResponse>
+
 
 
     /**
@@ -130,10 +140,12 @@ class TestData {
 	 public $productResponseList;// Array<ProductResponse>
 
 
+
     /**
      * 
      */
 	 public $pricingPlanResponseList;// Array<PricingPlanResponse>
+
 
 
     /**
@@ -142,10 +154,12 @@ class TestData {
 	 public $productFamilyResponseList;// Array<ProductFamilyResponse>
 
 
+
     /**
      * 
      */
 	 public $productItemRequestList;// Array<ProductItemRequest>
+
 
 
     /**
@@ -154,10 +168,12 @@ class TestData {
 	 public $productPricingPlanPaymentScheduleRequestList;// Array<ProductPricingPlanPaymentScheduleRequest>
 
 
+
     /**
      * 
      */
 	 public $productItemResponseList;// Array<ProductItemResponse>
+
 
 
     /**
@@ -166,10 +182,12 @@ class TestData {
 	 public $productMeteredPriceRequestList;// Array<ProductMeteredPriceRequest>
 
 
+
     /**
      * 
      */
 	 public $productRequestList;// Array<ProductRequest>
+
 
 
     /**
@@ -178,10 +196,12 @@ class TestData {
 	 public $productFamilyRequestList;// Array<ProductFamilyRequest>
 
 
+
     /**
      * 
      */
 	 public $productMeteredPriceResponseList;// Array<ProductMeteredPriceResponse>
+
 
 
     /**
@@ -190,10 +210,12 @@ class TestData {
 	 public $pricingPlanRequestList;// Array<PricingPlanRequest>
 
 
+
     /**
      * 
      */
 	 public $productPricingPlanPaymentScheduleResponseList;// Array<ProductPricingPlanPaymentScheduleResponse>
+
 
 
     /**
@@ -202,10 +224,12 @@ class TestData {
 	 public $siteSummaryList;// Array<SiteSummary>
 
 
+
     /**
      * 
      */
 	 public $reportIntValueItemList;// Array<ReportIntValueItem>
+
 
 
     /**
@@ -214,10 +238,12 @@ class TestData {
 	 public $activeSubscriptionsCountResponseList;// Array<ActiveSubscriptionsCountResponse>
 
 
+
     /**
      * 
      */
 	 public $totalSubscribersCountResponseList;// Array<TotalSubscribersCountResponse>
+
 
 
     /**
@@ -226,10 +252,12 @@ class TestData {
 	 public $revenueAmountList;// Array<RevenueAmount>
 
 
+
     /**
      * 
      */
 	 public $productsSignupsList;// Array<ProductsSignups>
+
 
 
     /**
@@ -238,10 +266,12 @@ class TestData {
 	 public $productsRevenuesList;// Array<ProductsRevenues>
 
 
+
     /**
      * 
      */
 	 public $reportDecimalValueItemList;// Array<ReportDecimalValueItem>
+
 
 
     /**
@@ -250,10 +280,12 @@ class TestData {
 	 public $todayNewSubscribersCountResponseList;// Array<TodayNewSubscribersCountResponse>
 
 
+
     /**
      * 
      */
 	 public $statementList;// Array<Statement>
+
 
 
     /**
@@ -262,10 +294,12 @@ class TestData {
 	 public $statementDetailList;// Array<StatementDetail>
 
 
+
     /**
      * 
      */
 	 public $subscriptionRequestList;// Array<SubscriptionRequest>
+
 
 
     /**
@@ -274,10 +308,12 @@ class TestData {
 	 public $subscriptionResponseList;// Array<SubscriptionResponse>
 
 
+
     /**
      * 
      */
 	 public $serviceResultList;// Array<ServiceResult>
+
 
 
     /**
@@ -286,10 +322,12 @@ class TestData {
 	 public $currencyList;// Array<Currency>
 
 
+
     /**
      * 
      */
 	 public $cancellationRequestList;// Array<CancellationRequest>
+
 
 
     /**
@@ -298,10 +336,12 @@ class TestData {
 	 public $subscriptionItemHistoryResponseList;// Array<SubscriptionItemHistoryResponse>
 
 
+
     /**
      * 
      */
 	 public $subscriptionItemResponseList;// Array<SubscriptionItemResponse>
+
 
 
     /**
@@ -310,16 +350,19 @@ class TestData {
 	 public $transactionResponseList;// Array<TransactionResponse>
 
 
+
     /**
      * 
      */
 	 public $subscriptionItemRequestList;// Array<SubscriptionItemRequest>
 
 
+
     /**
      * 
      */
 	 public $chargeRequestList;// Array<ChargeRequest>
+
 
 
     /**

@@ -27,6 +27,7 @@ class ReportsAPI {
 	}
 
 
+
 	/**
 	 * GetProductsSignupsEvolution
 	 *
@@ -51,12 +52,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -77,6 +81,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -103,12 +108,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -129,6 +137,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -153,6 +162,7 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -173,6 +183,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -197,6 +208,7 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -216,6 +228,7 @@ class ReportsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -240,6 +253,7 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -259,6 +273,7 @@ class ReportsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -283,6 +298,7 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -303,6 +319,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -327,6 +344,7 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -346,6 +364,7 @@ class ReportsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -372,12 +391,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -398,6 +420,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -424,12 +447,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -450,6 +476,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -476,12 +503,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -502,6 +532,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -528,12 +559,15 @@ class ReportsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($startDate != null) {
 			$resourcePath = str_replace("{startDate}", $this->apiClient->toPathValue($startDate), $resourcePath);
 		}
+
 		if($endDate != null) {
 			$resourcePath = str_replace("{endDate}", $this->apiClient->toPathValue($endDate), $resourcePath);
 		}
@@ -554,6 +588,7 @@ class ReportsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**

@@ -27,6 +27,7 @@ class ProductsAPI {
 	}
 
 
+
 	/**
 	 * GetProductsBySite
 	 *
@@ -52,15 +53,19 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($isArchived != null) {
 			$resourcePath = str_replace("{isArchived}", $this->apiClient->toPathValue($isArchived), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -81,6 +86,7 @@ class ProductsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -107,12 +113,15 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($productFamilyName != null) {
 			$resourcePath = str_replace("{productFamilyName}", $this->apiClient->toPathValue($productFamilyName), $resourcePath);
 		}
+
 		if($isArchived != null) {
 			$resourcePath = str_replace("{isArchived}", $this->apiClient->toPathValue($isArchived), $resourcePath);
 		}
@@ -133,6 +142,7 @@ class ProductsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -158,9 +168,11 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($productName != null) {
 			$resourcePath = str_replace("{productName}", $this->apiClient->toPathValue($productName), $resourcePath);
 		}
@@ -181,6 +193,7 @@ class ProductsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -206,9 +219,11 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
+
 		if($apiRef != null) {
 			$resourcePath = str_replace("{apiRef}", $this->apiClient->toPathValue($apiRef), $resourcePath);
 		}
@@ -228,6 +243,7 @@ class ProductsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -253,9 +269,11 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productFamilyId != null) {
 			$resourcePath = str_replace("{productFamilyId}", $this->apiClient->toPathValue($productFamilyId), $resourcePath);
 		}
+
 		if($isArchived != null) {
 			$resourcePath = str_replace("{isArchived}", $this->apiClient->toPathValue($isArchived), $resourcePath);
 		}
@@ -276,6 +294,7 @@ class ProductsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -301,9 +320,11 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productFamilyId != null) {
 			$resourcePath = str_replace("{productFamilyId}", $this->apiClient->toPathValue($productFamilyId), $resourcePath);
 		}
+
 		if($productName != null) {
 			$resourcePath = str_replace("{productName}", $this->apiClient->toPathValue($productName), $resourcePath);
 		}
@@ -323,6 +344,7 @@ class ProductsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -347,6 +369,7 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}
@@ -366,6 +389,7 @@ class ProductsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -407,6 +431,7 @@ class ProductsAPI {
 	 }
 
 
+
 	/**
 	 * UpdateProduct
 	 *
@@ -430,6 +455,7 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}
@@ -449,6 +475,7 @@ class ProductsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -472,6 +499,7 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}
@@ -483,6 +511,7 @@ class ProductsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -506,6 +535,7 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}
@@ -517,6 +547,7 @@ class ProductsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -540,6 +571,7 @@ class ProductsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}

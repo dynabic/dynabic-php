@@ -27,6 +27,7 @@ class UsersAPI {
 	}
 
 
+
 	/**
 	 * GetAllUsers
 	 *
@@ -50,9 +51,11 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -73,6 +76,7 @@ class UsersAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -97,6 +101,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -116,6 +121,7 @@ class UsersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -140,6 +146,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userName != null) {
 			$resourcePath = str_replace("{userName}", $this->apiClient->toPathValue($userName), $resourcePath);
 		}
@@ -159,6 +166,7 @@ class UsersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -183,6 +191,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -202,6 +211,7 @@ class UsersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -243,6 +253,7 @@ class UsersAPI {
 	 }
 
 
+
 	/**
 	 * UpdateUser
 	 *
@@ -266,6 +277,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -285,6 +297,7 @@ class UsersAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -308,6 +321,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -319,6 +333,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -343,9 +358,11 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
+
 		if($status != null) {
 			$resourcePath = str_replace("{status}", $this->apiClient->toPathValue($status), $resourcePath);
 		}
@@ -357,6 +374,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -381,9 +399,11 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
+
 		if($status != null) {
 			$resourcePath = str_replace("{status}", $this->apiClient->toPathValue($status), $resourcePath);
 		}
@@ -395,6 +415,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -418,6 +439,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -429,6 +451,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -454,12 +477,15 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
+
 		if($oldPassword != null) {
 			$resourcePath = str_replace("{oldPassword}", $this->apiClient->toPathValue($oldPassword), $resourcePath);
 		}
+
 		if($newPassword != null) {
 			$resourcePath = str_replace("{newPassword}", $this->apiClient->toPathValue($newPassword), $resourcePath);
 		}
@@ -471,6 +497,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -495,9 +522,11 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
+
 		if($roles != null) {
 			$resourcePath = str_replace("{roles}", $this->apiClient->toPathValue($roles), $resourcePath);
 		}
@@ -509,6 +538,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -532,6 +562,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}
@@ -543,6 +574,7 @@ class UsersAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -567,6 +599,7 @@ class UsersAPI {
         $headerParams = array();
     
 		
+
 		if($userId != null) {
 			$resourcePath = str_replace("{userId}", $this->apiClient->toPathValue($userId), $resourcePath);
 		}

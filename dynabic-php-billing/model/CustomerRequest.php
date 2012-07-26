@@ -36,10 +36,12 @@ class CustomerRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $shipping_address;// AddressRequest
+
 
 
     /**
@@ -48,10 +50,12 @@ class CustomerRequest {
 	 public $first_name;// string
 
 
+
     /**
      * 
      */
 	 public $phone;// string
+
 
 
     /**
@@ -60,10 +64,12 @@ class CustomerRequest {
 	 public $email;// string
 
 
+
     /**
      * 
      */
 	 public $company;// string
+
 
 
     /**
@@ -72,16 +78,19 @@ class CustomerRequest {
 	 public $shipping_address_id;// int
 
 
+
     /**
      * 
      */
 	 public $is_shipping_address_same_to_billing;// bool
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**

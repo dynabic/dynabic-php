@@ -30,16 +30,19 @@ class ReportDecimalValueItem {
     );
 
 
+
     /**
      * 
      */
 	 public $value;// float
 
 
+
     /**
      * 
      */
 	 public $date;// string
+
 
 
     /**

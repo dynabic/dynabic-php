@@ -30,16 +30,19 @@ class Currency {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**

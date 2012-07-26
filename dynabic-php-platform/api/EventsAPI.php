@@ -27,6 +27,7 @@ class EventsAPI {
 	}
 
 
+
 	/**
 	 * GetEventsForSubscription
 	 *
@@ -51,12 +52,15 @@ class EventsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -77,6 +81,7 @@ class EventsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -103,12 +108,15 @@ class EventsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($fromDate != null) {
 			$resourcePath = str_replace("{fromDate}", $this->apiClient->toPathValue($fromDate), $resourcePath);
 		}
+
 		if($toDate != null) {
 			$resourcePath = str_replace("{toDate}", $this->apiClient->toPathValue($toDate), $resourcePath);
 		}
@@ -129,6 +137,7 @@ class EventsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -153,6 +162,7 @@ class EventsAPI {
         $headerParams = array();
     
 		
+
 		if($eventId != null) {
 			$resourcePath = str_replace("{eventId}", $this->apiClient->toPathValue($eventId), $resourcePath);
 		}
@@ -172,6 +182,7 @@ class EventsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -199,15 +210,19 @@ class EventsAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
+
 		if($eventTypeFilter != null) {
 			$resourcePath = str_replace("{eventTypeFilter}", $this->apiClient->toPathValue($eventTypeFilter), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -228,6 +243,7 @@ class EventsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -253,9 +269,11 @@ class EventsAPI {
         $headerParams = array();
     
 		
+
 		if($eventTypeFilter != null) {
 			$resourcePath = str_replace("{eventTypeFilter}", $this->apiClient->toPathValue($eventTypeFilter), $resourcePath);
 		}
+
 		if($numberOfReturnedEvents != null) {
 			$resourcePath = str_replace("{numberOfReturnedEvents}", $this->apiClient->toPathValue($numberOfReturnedEvents), $resourcePath);
 		}

@@ -37,10 +37,12 @@ class ProductPricingPlanPaymentScheduleResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -49,10 +51,12 @@ class ProductPricingPlanPaymentScheduleResponse {
 	 public $frequency_recurrence_factor;// int
 
 
+
     /**
      * 
      */
 	 public $frequency_interval;// int
+
 
 
     /**
@@ -61,10 +65,12 @@ class ProductPricingPlanPaymentScheduleResponse {
 	 public $subscription_period_change;// float
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -73,10 +79,12 @@ class ProductPricingPlanPaymentScheduleResponse {
 	 public $frequency_relative_interval;// string
 
 
+
     /**
      * 
      */
 	 public $frequency_type;// string
+
 
 
     /**
@@ -85,10 +93,12 @@ class ProductPricingPlanPaymentScheduleResponse {
 	 public $pricing_plan_id;// int
 
 
+
     /**
      * 
      */
 	 public $end_date_offset_days;// int
+
 
 
     /**

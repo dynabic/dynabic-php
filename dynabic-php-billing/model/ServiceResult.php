@@ -29,10 +29,12 @@ class ServiceResult {
     );
 
 
+
     /**
      * 
      */
 	 public $result;// string
+
 
 
     /**

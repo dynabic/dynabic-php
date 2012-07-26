@@ -27,6 +27,7 @@ class AppsAPI {
 	}
 
 
+
 	/**
 	 * GetAllApplications
 	 *
@@ -64,6 +65,7 @@ class AppsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -105,6 +107,7 @@ class AppsAPI {
 	 }
 
 
+
 	/**
 	 * GetCompanyApplicationById
 	 *
@@ -127,6 +130,7 @@ class AppsAPI {
         $headerParams = array();
     
 		
+
 		if($applicationId != null) {
 			$resourcePath = str_replace("{applicationId}", $this->apiClient->toPathValue($applicationId), $resourcePath);
 		}
@@ -146,6 +150,7 @@ class AppsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -170,6 +175,7 @@ class AppsAPI {
         $headerParams = array();
     
 		
+
 		if($appName != null) {
 			$resourcePath = str_replace("{appName}", $this->apiClient->toPathValue($appName), $resourcePath);
 		}
@@ -189,6 +195,7 @@ class AppsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -213,6 +220,7 @@ class AppsAPI {
         $headerParams = array();
     
 		
+
 		if($applicationId != null) {
 			$resourcePath = str_replace("{applicationId}", $this->apiClient->toPathValue($applicationId), $resourcePath);
 		}
@@ -232,6 +240,7 @@ class AppsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -256,9 +265,11 @@ class AppsAPI {
         $headerParams = array();
     
 		
+
 		if($applicationId != null) {
 			$resourcePath = str_replace("{applicationId}", $this->apiClient->toPathValue($applicationId), $resourcePath);
 		}
+
 		if($status != null) {
 			$resourcePath = str_replace("{status}", $this->apiClient->toPathValue($status), $resourcePath);
 		}

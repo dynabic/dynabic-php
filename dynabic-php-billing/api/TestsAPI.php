@@ -27,6 +27,7 @@ class TestsAPI {
 	}
 
 
+
 	/**
 	 * Refund
 	 *
@@ -51,12 +52,15 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($transactionId != null) {
 			$resourcePath = str_replace("{transactionId}", $this->apiClient->toPathValue($transactionId), $resourcePath);
 		}
+
 		if($amount != null) {
 			$resourcePath = str_replace("{amount}", $this->apiClient->toPathValue($amount), $resourcePath);
 		}
@@ -76,6 +80,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -103,15 +108,19 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($isAmountAbsolute != null) {
 			$resourcePath = str_replace("{isAmountAbsolute}", $this->apiClient->toPathValue($isAmountAbsolute), $resourcePath);
 		}
+
 		if($amount != null) {
 			$resourcePath = str_replace("{amount}", $this->apiClient->toPathValue($amount), $resourcePath);
 		}
+
 		if($chargeDetails != null) {
 			$resourcePath = str_replace("{chargeDetails}", $this->apiClient->toPathValue($chargeDetails), $resourcePath);
 		}
@@ -131,6 +140,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -162,6 +172,7 @@ class TestsAPI {
 	 }
 
 
+
 	/**
 	 * AddChargeToSubscription
 	 *
@@ -186,12 +197,15 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($amount != null) {
 			$resourcePath = str_replace("{amount}", $this->apiClient->toPathValue($amount), $resourcePath);
 		}
+
 		if($chargeDetails != null) {
 			$resourcePath = str_replace("{chargeDetails}", $this->apiClient->toPathValue($chargeDetails), $resourcePath);
 		}
@@ -211,6 +225,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -237,9 +252,11 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($signUpDate != null) {
 			$resourcePath = str_replace("{signUpDate}", $this->apiClient->toPathValue($signUpDate), $resourcePath);
 		}
@@ -259,6 +276,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -300,6 +318,7 @@ class TestsAPI {
 	 }
 
 
+
 	/**
 	 * SendDailyActivityReport
 	 *
@@ -322,6 +341,7 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
@@ -341,6 +361,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -366,9 +387,11 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
@@ -388,6 +411,7 @@ class TestsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -411,6 +435,7 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -422,6 +447,7 @@ class TestsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -446,9 +472,11 @@ class TestsAPI {
         $headerParams = array();
     
 		
+
 		if($productPricingPlanId != null) {
 			$resourcePath = str_replace("{productPricingPlanId}", $this->apiClient->toPathValue($productPricingPlanId), $resourcePath);
 		}
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}

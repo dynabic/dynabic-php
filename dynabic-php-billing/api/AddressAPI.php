@@ -27,6 +27,7 @@ class AddressAPI {
 	}
 
 
+
 	/**
 	 * GetAddressXml
 	 *
@@ -49,6 +50,7 @@ class AddressAPI {
         $headerParams = array();
     
 		
+
 		if($addressId != null) {
 			$resourcePath = str_replace("{addressId}", $this->apiClient->toPathValue($addressId), $resourcePath);
 		}
@@ -68,6 +70,7 @@ class AddressAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -92,6 +95,7 @@ class AddressAPI {
         $headerParams = array();
     
 		
+
 		if($addressId != null) {
 			$resourcePath = str_replace("{addressId}", $this->apiClient->toPathValue($addressId), $resourcePath);
 		}

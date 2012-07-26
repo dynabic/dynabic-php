@@ -36,10 +36,12 @@ class ProductRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -48,10 +50,12 @@ class ProductRequest {
 	 public $is_billing_address_at_signup_required;// string
 
 
+
     /**
      * 
      */
 	 public $is_credit_card_at_signup_required;// string
+
 
 
     /**
@@ -60,10 +64,12 @@ class ProductRequest {
 	 public $pricing_plans =  array();// array<PricingPlanRequest>
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**
@@ -72,16 +78,19 @@ class ProductRequest {
 	 public $accounting_code;// string
 
 
+
     /**
      * 
      */
 	 public $api_reference1;// string
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**

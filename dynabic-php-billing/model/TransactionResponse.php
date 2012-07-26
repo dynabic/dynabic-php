@@ -27,6 +27,7 @@ class TransactionResponse {
     'gateway_response_message' => 'string',
     'subscription_id' => 'int',
     'transaction_type' => 'string',
+    'service_result' => 'ServiceResult',
     'gateway_raw_response' => 'string',
     'transaction_date' => 'string',
     'settlement_attempts_count' => 'int',
@@ -38,9 +39,9 @@ class TransactionResponse {
     'transaction_status' => 'string',
     'refunded' => 'float',
     'details' => 'string',
+    'subscription_balance' => 'float',
     'gateway_raw_request' => 'string',
     'gateway_transaction_id' => 'string',
-    'subscription_balance' => 'float',
     'gateway_response_code' => 'string',
     'gateway_response_description' => 'string',
     'gateway_status' => 'string',
@@ -49,10 +50,12 @@ class TransactionResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $gateway_response_message;// string
+
 
 
     /**
@@ -61,10 +64,19 @@ class TransactionResponse {
 	 public $subscription_id;// int
 
 
+
     /**
      * 
      */
 	 public $transaction_type;// string
+
+
+
+    /**
+     * 
+     */
+	 public $service_result;// ServiceResult
+
 
 
     /**
@@ -73,10 +85,12 @@ class TransactionResponse {
 	 public $gateway_raw_response;// string
 
 
+
     /**
      * 
      */
 	 public $transaction_date;// string
+
 
 
     /**
@@ -85,10 +99,12 @@ class TransactionResponse {
 	 public $settlement_attempts_count;// int
 
 
+
     /**
      * 
      */
 	 public $currency;// string
+
 
 
     /**
@@ -97,10 +113,12 @@ class TransactionResponse {
 	 public $purchase_order_reference;// string
 
 
+
     /**
      * 
      */
 	 public $amount;// float
+
 
 
     /**
@@ -109,10 +127,12 @@ class TransactionResponse {
 	 public $id;// int
 
 
+
     /**
      * 
      */
 	 public $last_settlement_attempt_date;// string
+
 
 
     /**
@@ -121,10 +141,12 @@ class TransactionResponse {
 	 public $transaction_status;// string
 
 
+
     /**
      * 
      */
 	 public $refunded;// float
+
 
 
     /**
@@ -133,10 +155,19 @@ class TransactionResponse {
 	 public $details;// string
 
 
+
+    /**
+     * 
+     */
+	 public $subscription_balance;// float
+
+
+
     /**
      * 
      */
 	 public $gateway_raw_request;// string
+
 
 
     /**
@@ -145,16 +176,12 @@ class TransactionResponse {
 	 public $gateway_transaction_id;// string
 
 
-    /**
-     * 
-     */
-	 public $subscription_balance;// float
-
 
     /**
      * 
      */
 	 public $gateway_response_code;// string
+
 
 
     /**
@@ -163,16 +190,19 @@ class TransactionResponse {
 	 public $gateway_response_description;// string
 
 
+
     /**
      * 
      */
 	 public $gateway_status;// string
 
 
+
     /**
      * 
      */
 	 public $gateway_ref_transaction_id;// string
+
 
 
     /**

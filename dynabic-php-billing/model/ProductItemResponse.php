@@ -38,10 +38,12 @@ class ProductItemResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -50,10 +52,12 @@ class ProductItemResponse {
 	 public $product_item_id;// int
 
 
+
     /**
      * 
      */
 	 public $is_visible_on_hosted_page;// bool
+
 
 
     /**
@@ -62,10 +66,12 @@ class ProductItemResponse {
 	 public $description;// string
 
 
+
     /**
      * 
      */
 	 public $charge_model;// string
+
 
 
     /**
@@ -74,10 +80,12 @@ class ProductItemResponse {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $product_item_children =  array();// array<ProductItemResponse>
+
 
 
     /**
@@ -86,16 +94,19 @@ class ProductItemResponse {
 	 public $unit_name;// string
 
 
+
     /**
      * 
      */
 	 public $pricing_plan_id;// int
 
 
+
     /**
      * 
      */
 	 public $metered_prices =  array();// array<ProductMeteredPriceResponse>
+
 
 
     /**

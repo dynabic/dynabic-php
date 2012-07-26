@@ -33,10 +33,12 @@ class SiteSummary {
     );
 
 
+
     /**
      * 
      */
 	 public $today_revenues =  array();// array<RevenueAmount>
+
 
 
     /**
@@ -45,10 +47,12 @@ class SiteSummary {
 	 public $total_subscribers;// int
 
 
+
     /**
      * 
      */
 	 public $today_new_subscriptions;// int
+
 
 
     /**
@@ -57,10 +61,12 @@ class SiteSummary {
 	 public $total_revenues =  array();// array<RevenueAmount>
 
 
+
     /**
      * 
      */
 	 public $site_id;// int
+
 
 
     /**

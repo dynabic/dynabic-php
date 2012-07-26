@@ -35,10 +35,12 @@ class CreditCardResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -47,10 +49,12 @@ class CreditCardResponse {
 	 public $card_number;// string
 
 
+
     /**
      * 
      */
 	 public $status;// string
+
 
 
     /**
@@ -59,10 +63,12 @@ class CreditCardResponse {
 	 public $expiration_date;// string
 
 
+
     /**
      * 
      */
 	 public $cvv;// string
+
 
 
     /**
@@ -71,10 +77,12 @@ class CreditCardResponse {
 	 public $last_name_on_card;// string
 
 
+
     /**
      * 
      */
 	 public $first_name_on_card;// string
+
 
 
     /**

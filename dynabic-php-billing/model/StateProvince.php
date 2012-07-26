@@ -31,10 +31,12 @@ class StateProvince {
     );
 
 
+
     /**
      * 
      */
 	 public $Name;// string
+
 
 
     /**
@@ -43,10 +45,12 @@ class StateProvince {
 	 public $CountryTwoLetterISOCode;// string
 
 
+
     /**
      * 
      */
 	 public $Id;// int
+
 
 
     /**

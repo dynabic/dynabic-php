@@ -39,10 +39,12 @@ class CustomerResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $shipping_address;// AddressResponse
+
 
 
     /**
@@ -51,10 +53,12 @@ class CustomerResponse {
 	 public $id;// int
 
 
+
     /**
      * 
      */
 	 public $first_name;// string
+
 
 
     /**
@@ -63,10 +67,12 @@ class CustomerResponse {
 	 public $phone;// string
 
 
+
     /**
      * 
      */
 	 public $email;// string
+
 
 
     /**
@@ -75,10 +81,12 @@ class CustomerResponse {
 	 public $company;// string
 
 
+
     /**
      * 
      */
 	 public $shipping_address_id;// int
+
 
 
     /**
@@ -87,10 +95,12 @@ class CustomerResponse {
 	 public $is_shipping_address_same_to_billing;// bool
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**
@@ -99,10 +109,12 @@ class CustomerResponse {
 	 public $registration_date;// string
 
 
+
     /**
      * 
      */
 	 public $site_id;// int
+
 
 
     /**

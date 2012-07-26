@@ -32,10 +32,12 @@ class SettingsSettingsInput {
     );
 
 
+
     /**
      * site Subdomain
      */
 	 public $siteSubdomain;// string
+
 
 
     /**
@@ -44,16 +46,19 @@ class SettingsSettingsInput {
 	 public $settingId;// string
 
 
+
     /**
      * setting Name
      */
 	 public $settingName;// string
 
 
+
     /**
      * setting Value
      */
 	 public $settingValue;// string
+
 
 
     /**

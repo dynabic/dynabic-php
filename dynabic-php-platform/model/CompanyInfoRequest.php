@@ -34,10 +34,12 @@ class CompanyInfoRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $timezone;// string
+
 
 
     /**
@@ -46,10 +48,12 @@ class CompanyInfoRequest {
 	 public $phone;// string
 
 
+
     /**
      * 
      */
 	 public $email;// string
+
 
 
     /**
@@ -58,16 +62,19 @@ class CompanyInfoRequest {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $culture;// string
 
 
+
     /**
      * 
      */
 	 public $currency;// string
+
 
 
     /**

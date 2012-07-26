@@ -27,6 +27,7 @@ class SettingsAPI {
 	}
 
 
+
 	/**
 	 * GetSettings
 	 *
@@ -49,6 +50,7 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -69,6 +71,7 @@ class SettingsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -94,9 +97,11 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($settingId != null) {
 			$resourcePath = str_replace("{settingId}", $this->apiClient->toPathValue($settingId), $resourcePath);
 		}
@@ -116,6 +121,7 @@ class SettingsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -141,9 +147,11 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($settingName != null) {
 			$resourcePath = str_replace("{settingName}", $this->apiClient->toPathValue($settingName), $resourcePath);
 		}
@@ -163,6 +171,7 @@ class SettingsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -189,9 +198,11 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($settingId != null) {
 			$resourcePath = str_replace("{settingId}", $this->apiClient->toPathValue($settingId), $resourcePath);
 		}
@@ -211,6 +222,7 @@ class SettingsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -236,18 +248,23 @@ class SettingsAPI {
     
 	
 		
+
 		if($settingsSettingsInput != null && $settingsSettingsInput->siteSubdomain != null) {
 		 	$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($settingsSettingsInput->siteSubdomain), $resourcePath);	
 		}
+
 		if($settingsSettingsInput != null && $settingsSettingsInput->settingId != null) {
 		 	$resourcePath = str_replace("{settingId}", $this->apiClient->toPathValue($settingsSettingsInput->settingId), $resourcePath);	
 		}
+
 		if($settingsSettingsInput != null && $settingsSettingsInput->settingName != null) {
 		 	$resourcePath = str_replace("{settingName}", $this->apiClient->toPathValue($settingsSettingsInput->settingName), $resourcePath);	
 		}
+
 		if($settingsSettingsInput != null && $settingsSettingsInput->settingValue != null) {
 		 	$resourcePath = str_replace("{settingValue}", $this->apiClient->toPathValue($settingsSettingsInput->settingValue), $resourcePath);	
 		}
+
 		if($settingsSettingsInput != null && $settingsSettingsInput->settingDescription != null) {
 		 	$resourcePath = str_replace("{settingDescription}", $this->apiClient->toPathValue($settingsSettingsInput->settingDescription), $resourcePath);	
 		}
@@ -266,6 +283,7 @@ class SettingsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -292,12 +310,15 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($settingId != null) {
 			$resourcePath = str_replace("{settingId}", $this->apiClient->toPathValue($settingId), $resourcePath);
 		}
+
 		if($settingValue != null) {
 			$resourcePath = str_replace("{settingValue}", $this->apiClient->toPathValue($settingValue), $resourcePath);
 		}
@@ -317,6 +338,7 @@ class SettingsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -341,6 +363,7 @@ class SettingsAPI {
         $headerParams = array();
     
 		
+
 		if($settingName != null) {
 			$resourcePath = str_replace("{settingName}", $this->apiClient->toPathValue($settingName), $resourcePath);
 		}

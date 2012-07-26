@@ -44,10 +44,12 @@ class Address {
     );
 
 
+
     /**
      * 
      */
 	 public $UpdatedOn;// string
+
 
 
     /**
@@ -56,10 +58,12 @@ class Address {
 	 public $PhoneNumber;// string
 
 
+
     /**
      * 
      */
 	 public $StateProvinceId;// int
+
 
 
     /**
@@ -68,10 +72,12 @@ class Address {
 	 public $LastName;// string
 
 
+
     /**
      * 
      */
 	 public $City;// string
+
 
 
     /**
@@ -80,10 +86,12 @@ class Address {
 	 public $Email;// string
 
 
+
     /**
      * 
      */
 	 public $CustomerId;// int
+
 
 
     /**
@@ -92,10 +100,12 @@ class Address {
 	 public $Address2;// string
 
 
+
     /**
      * 
      */
 	 public $FaxNumber;// string
+
 
 
     /**
@@ -104,10 +114,12 @@ class Address {
 	 public $Address1;// string
 
 
+
     /**
      * 
      */
 	 public $CreatedOn;// string
+
 
 
     /**
@@ -116,10 +128,12 @@ class Address {
 	 public $CountryId;// int
 
 
+
     /**
      * 
      */
 	 public $IsBillingAddress;// bool
+
 
 
     /**
@@ -128,16 +142,19 @@ class Address {
 	 public $FirstName;// string
 
 
+
     /**
      * 
      */
 	 public $Id;// int
 
 
+
     /**
      * 
      */
 	 public $Company;// string
+
 
 
     /**

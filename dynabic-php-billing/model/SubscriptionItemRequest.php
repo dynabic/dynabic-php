@@ -31,10 +31,12 @@ class SubscriptionItemRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $subscription_id;// int
+
 
 
     /**
@@ -43,10 +45,12 @@ class SubscriptionItemRequest {
 	 public $product_item_id;// int
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**

@@ -27,6 +27,7 @@ class DynabicmarketingplansAPI {
 	}
 
 
+
 	/**
 	 * SetActiveMarketingPlan
 	 *
@@ -49,6 +50,7 @@ class DynabicmarketingplansAPI {
         $headerParams = array();
     
 		
+
 		if($productId != null) {
 			$resourcePath = str_replace("{productId}", $this->apiClient->toPathValue($productId), $resourcePath);
 		}

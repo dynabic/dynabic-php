@@ -32,10 +32,12 @@ class ProductsRevenues {
     );
 
 
+
     /**
      * 
      */
 	 public $product;// string
+
 
 
     /**
@@ -44,16 +46,19 @@ class ProductsRevenues {
 	 public $product_id;// int
 
 
+
     /**
      * 
      */
 	 public $revenues;// float
 
 
+
     /**
      * 
      */
 	 public $date;// string
+
 
 
     /**

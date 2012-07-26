@@ -29,10 +29,12 @@ class RevenueAmount {
     );
 
 
+
     /**
      * 
      */
 	 public $amount;// float
+
 
 
     /**

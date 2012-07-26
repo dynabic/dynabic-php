@@ -39,10 +39,12 @@ class AddressRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $fax_number;// string
+
 
 
     /**
@@ -51,10 +53,12 @@ class AddressRequest {
 	 public $first_name;// string
 
 
+
     /**
      * 
      */
 	 public $state_province;// string
+
 
 
     /**
@@ -63,10 +67,12 @@ class AddressRequest {
 	 public $phone_number;// string
 
 
+
     /**
      * 
      */
 	 public $email;// string
+
 
 
     /**
@@ -75,10 +81,12 @@ class AddressRequest {
 	 public $company;// string
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**
@@ -87,10 +95,12 @@ class AddressRequest {
 	 public $address1;// string
 
 
+
     /**
      * 
      */
 	 public $address2;// string
+
 
 
     /**
@@ -99,10 +109,12 @@ class AddressRequest {
 	 public $zip_postal_code;// string
 
 
+
     /**
      * 
      */
 	 public $country;// string
+
 
 
     /**

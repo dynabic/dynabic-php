@@ -43,10 +43,12 @@ class AddressResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $fax_number;// string
+
 
 
     /**
@@ -55,10 +57,12 @@ class AddressResponse {
 	 public $state_province;// string
 
 
+
     /**
      * 
      */
 	 public $phone_number;// string
+
 
 
     /**
@@ -67,10 +71,12 @@ class AddressResponse {
 	 public $created_on;// string
 
 
+
     /**
      * 
      */
 	 public $address1;// string
+
 
 
     /**
@@ -79,10 +85,12 @@ class AddressResponse {
 	 public $address2;// string
 
 
+
     /**
      * 
      */
 	 public $country;// string
+
 
 
     /**
@@ -91,10 +99,12 @@ class AddressResponse {
 	 public $city;// string
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -103,10 +113,12 @@ class AddressResponse {
 	 public $first_name;// string
 
 
+
     /**
      * 
      */
 	 public $email;// string
+
 
 
     /**
@@ -115,10 +127,12 @@ class AddressResponse {
 	 public $company;// string
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**
@@ -127,10 +141,12 @@ class AddressResponse {
 	 public $updated_on;// string
 
 
+
     /**
      * 
      */
 	 public $zip_postal_code;// string
+
 
 
     /**

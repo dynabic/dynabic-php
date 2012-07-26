@@ -35,10 +35,12 @@ class CompanyInfoResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -47,10 +49,12 @@ class CompanyInfoResponse {
 	 public $timezone;// string
 
 
+
     /**
      * 
      */
 	 public $phone;// string
+
 
 
     /**
@@ -59,10 +63,12 @@ class CompanyInfoResponse {
 	 public $email;// string
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -71,10 +77,12 @@ class CompanyInfoResponse {
 	 public $culture;// string
 
 
+
     /**
      * 
      */
 	 public $currency;// string
+
 
 
     /**

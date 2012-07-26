@@ -34,10 +34,12 @@ class StatementDetail {
     );
 
 
+
     /**
      * 
      */
 	 public $amount;// float
+
 
 
     /**
@@ -46,10 +48,12 @@ class StatementDetail {
 	 public $id;// int
 
 
+
     /**
      * 
      */
 	 public $currency_id;// int
+
 
 
     /**
@@ -58,16 +62,19 @@ class StatementDetail {
 	 public $details;// string
 
 
+
     /**
      * 
      */
 	 public $type;// string
 
 
+
     /**
      * 
      */
 	 public $date;// string
+
 
 
     /**

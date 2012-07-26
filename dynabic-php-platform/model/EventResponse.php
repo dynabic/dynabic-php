@@ -33,10 +33,12 @@ class EventResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -45,10 +47,12 @@ class EventResponse {
 	 public $event_type;// string
 
 
+
     /**
      * 
      */
 	 public $site_id;// int
+
 
 
     /**
@@ -57,10 +61,12 @@ class EventResponse {
 	 public $parameters =  array();// array<EventParam>
 
 
+
     /**
      * 
      */
 	 public $event_result;// string
+
 
 
     /**

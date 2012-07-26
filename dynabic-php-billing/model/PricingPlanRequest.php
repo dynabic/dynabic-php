@@ -35,10 +35,12 @@ class PricingPlanRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -47,10 +49,12 @@ class PricingPlanRequest {
 	 public $trial_period_duration_days;// int
 
 
+
     /**
      * 
      */
 	 public $trial_period_charge;// float
+
 
 
     /**
@@ -59,10 +63,12 @@ class PricingPlanRequest {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $upfront_charge;// float
+
 
 
     /**
@@ -71,10 +77,12 @@ class PricingPlanRequest {
 	 public $product_items =  array();// array<ProductItemRequest>
 
 
+
     /**
      * 
      */
 	 public $pricing_plan_payment_schedules =  array();// array<ProductPricingPlanPaymentScheduleRequest>
+
 
 
     /**

@@ -27,6 +27,7 @@ class SubscriptionsAPI {
 	}
 
 
+
 	/**
 	 * GetSubscriptions
 	 *
@@ -51,12 +52,15 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -77,6 +81,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -104,15 +109,19 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($status != null) {
 			$resourcePath = str_replace("{status}", $this->apiClient->toPathValue($status), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -133,6 +142,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -157,6 +167,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -176,6 +187,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -200,6 +212,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($customerId != null) {
 			$resourcePath = str_replace("{customerId}", $this->apiClient->toPathValue($customerId), $resourcePath);
 		}
@@ -220,6 +233,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -245,9 +259,11 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($customerReferenceId != null) {
 			$resourcePath = str_replace("{customerReferenceId}", $this->apiClient->toPathValue($customerReferenceId), $resourcePath);
 		}
@@ -268,6 +284,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -293,6 +310,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -312,6 +330,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -338,9 +357,11 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -360,6 +381,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -383,6 +405,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -394,6 +417,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -418,6 +442,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -437,6 +462,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -461,6 +487,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -481,6 +508,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -506,6 +534,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -525,6 +554,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -551,9 +581,11 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($transactionId != null) {
 			$resourcePath = str_replace("{transactionId}", $this->apiClient->toPathValue($transactionId), $resourcePath);
 		}
@@ -573,6 +605,7 @@ class SubscriptionsAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -598,9 +631,11 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($isAmountAbsolute != null) {
 			$resourcePath = str_replace("{isAmountAbsolute}", $this->apiClient->toPathValue($isAmountAbsolute), $resourcePath);
 		}
@@ -612,6 +647,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, $postData, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -628,7 +664,7 @@ class SubscriptionsAPI {
 	 public function ChangeSubscriptionProduct($subscriptionId, $newProductPricingPlanId) {
 
 		//parse inputs
-		$resourcePath = "/subscriptions/changeproduct/{subscriptionId}/{newProductPricingPlanId}";
+		$resourcePath = "/subscriptions/changeproduct/{subscriptionId}/{newProductPricingPlanId}.{format}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
 		$method = "PUT";
@@ -636,9 +672,11 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($newProductPricingPlanId != null) {
 			$resourcePath = str_replace("{newProductPricingPlanId}", $this->apiClient->toPathValue($newProductPricingPlanId), $resourcePath);
 		}
@@ -650,6 +688,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -668,7 +707,7 @@ class SubscriptionsAPI {
 	 public function UpgradeDowngradeSubscriptionProduct($subscriptionId, $newProductPricingPlanId, $includeTrial, $includeUpfrontCharge) {
 
 		//parse inputs
-		$resourcePath = "/subscriptions/upgradedowngrade/{subscriptionId}/{newProductPricingPlanId}/{includeTrial}/{includeUpfrontCharge}";
+		$resourcePath = "/subscriptions/upgradedowngrade/{subscriptionId}/{newProductPricingPlanId}/{includeTrial}/{includeUpfrontCharge}.{format}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
 		$method = "PUT";
@@ -676,15 +715,19 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($newProductPricingPlanId != null) {
 			$resourcePath = str_replace("{newProductPricingPlanId}", $this->apiClient->toPathValue($newProductPricingPlanId), $resourcePath);
 		}
+
 		if($includeTrial != null) {
 			$resourcePath = str_replace("{includeTrial}", $this->apiClient->toPathValue($includeTrial), $resourcePath);
 		}
+
 		if($includeUpfrontCharge != null) {
 			$resourcePath = str_replace("{includeUpfrontCharge}", $this->apiClient->toPathValue($includeUpfrontCharge), $resourcePath);
 		}
@@ -696,6 +739,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -712,7 +756,7 @@ class SubscriptionsAPI {
 	 public function CancelSubscription($subscriptionId, $postData) {
 
 		//parse inputs
-		$resourcePath = "/subscriptions/cancel/{subscriptionId}";
+		$resourcePath = "/subscriptions/cancel/{subscriptionId}.{format}";
 		$resourcePath = str_replace("{format}", "json", $resourcePath);
 		$resourcePath = str_replace("*", "", $resourcePath);
 		$method = "PUT";
@@ -720,6 +764,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -731,6 +776,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, $postData, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -754,6 +800,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -765,6 +812,7 @@ class SubscriptionsAPI {
 		$response = $this->apiClient->callAPI($resourcePath, $method, $queryParams, null, $headerParams);
 		
 	 }
+
 
 
 	/**
@@ -797,6 +845,7 @@ class SubscriptionsAPI {
 	 }
 
 
+
 	/**
 	 * UpdateSubscriptionItems
 	 *
@@ -827,6 +876,7 @@ class SubscriptionsAPI {
 	 }
 
 
+
 	/**
 	 * GetSubscriptionItems
 	 *
@@ -849,6 +899,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
@@ -869,6 +920,7 @@ class SubscriptionsAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -892,6 +944,7 @@ class SubscriptionsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}

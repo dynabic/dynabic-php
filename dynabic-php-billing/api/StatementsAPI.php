@@ -27,6 +27,7 @@ class StatementsAPI {
 	}
 
 
+
 	/**
 	 * GetStatementsForSubscription
 	 *
@@ -51,12 +52,15 @@ class StatementsAPI {
         $headerParams = array();
     
 		
+
 		if($subscriptionId != null) {
 			$resourcePath = str_replace("{subscriptionId}", $this->apiClient->toPathValue($subscriptionId), $resourcePath);
 		}
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}

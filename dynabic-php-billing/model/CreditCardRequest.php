@@ -32,10 +32,12 @@ class CreditCardRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $card_number;// string
+
 
 
     /**
@@ -44,16 +46,19 @@ class CreditCardRequest {
 	 public $expiration_date;// string
 
 
+
     /**
      * 
      */
 	 public $cvv;// string
 
 
+
     /**
      * 
      */
 	 public $last_name_on_card;// string
+
 
 
     /**

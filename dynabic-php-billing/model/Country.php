@@ -47,10 +47,12 @@ class Country {
     );
 
 
+
     /**
      * 
      */
 	 public $NumericIsoCode;// int
+
 
 
     /**
@@ -59,10 +61,12 @@ class Country {
 	 public $Fips;// string
 
 
+
     /**
      * 
      */
 	 public $DisplayOrder;// int
+
 
 
     /**
@@ -71,10 +75,12 @@ class Country {
 	 public $Tld;// string
 
 
+
     /**
      * 
      */
 	 public $Area;// int
+
 
 
     /**
@@ -83,10 +89,12 @@ class Country {
 	 public $Capital;// string
 
 
+
     /**
      * 
      */
 	 public $Geonameid;// int
+
 
 
     /**
@@ -95,10 +103,12 @@ class Country {
 	 public $PostalCodeRegex;// string
 
 
+
     /**
      * 
      */
 	 public $EquivalentFipsCode;// string
+
 
 
     /**
@@ -107,10 +117,12 @@ class Country {
 	 public $CurrencyCode;// string
 
 
+
     /**
      * 
      */
 	 public $Languages;// string
+
 
 
     /**
@@ -119,10 +131,12 @@ class Country {
 	 public $Name;// string
 
 
+
     /**
      * 
      */
 	 public $ThreeLetterIsoCode;// string
+
 
 
     /**
@@ -131,10 +145,12 @@ class Country {
 	 public $CurrencyName;// string
 
 
+
     /**
      * 
      */
 	 public $PostalCodeFormat;// string
+
 
 
     /**
@@ -143,10 +159,12 @@ class Country {
 	 public $Neighbours;// string
 
 
+
     /**
      * 
      */
 	 public $Population;// int
+
 
 
     /**
@@ -155,10 +173,12 @@ class Country {
 	 public $Id;// int
 
 
+
     /**
      * 
      */
 	 public $Continent;// string
+
 
 
     /**

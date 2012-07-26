@@ -33,10 +33,12 @@ class ApplicationPlan {
     );
 
 
+
     /**
      * 
      */
 	 public $subscription_period_charge;// float
+
 
 
     /**
@@ -45,10 +47,12 @@ class ApplicationPlan {
 	 public $product_id;// int
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**
@@ -57,10 +61,12 @@ class ApplicationPlan {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $application_id;// int
+
 
 
     /**

@@ -154,9 +154,9 @@ class APIClient {
 	 */
 	public static function toPathValue($object) {
         if (is_array($object)) {
-            return str_replace("%2F", "/", rawurlencode(implode(',', $object)));
+            return str_replace("%40", "@", str_replace("%2F", "/", rawurlencode(implode(',', $object))));
         } else {
-            return str_replace("%2F", "/", rawurlencode($object));
+            return str_replace("%40", "@", str_replace("%2F", "/", rawurlencode($object)));
         }
 	}
 

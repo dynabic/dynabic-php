@@ -37,10 +37,12 @@ class ProductResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -49,10 +51,12 @@ class ProductResponse {
 	 public $is_billing_address_at_signup_required;// string
 
 
+
     /**
      * 
      */
 	 public $is_credit_card_at_signup_required;// string
+
 
 
     /**
@@ -61,10 +65,12 @@ class ProductResponse {
 	 public $pricing_plans =  array();// array<PricingPlanResponse>
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**
@@ -73,10 +79,12 @@ class ProductResponse {
 	 public $accounting_code;// string
 
 
+
     /**
      * 
      */
 	 public $api_reference1;// string
+
 
 
     /**
@@ -85,10 +93,12 @@ class ProductResponse {
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $product_family_id;// int
+
 
 
     /**

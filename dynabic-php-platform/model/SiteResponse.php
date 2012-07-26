@@ -33,10 +33,12 @@ class SiteResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -45,10 +47,12 @@ class SiteResponse {
 	 public $company_id;// int
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -57,10 +61,12 @@ class SiteResponse {
 	 public $subdomain;// string
 
 
+
     /**
      * 
      */
 	 public $is_test_mode;// bool
+
 
 
     /**

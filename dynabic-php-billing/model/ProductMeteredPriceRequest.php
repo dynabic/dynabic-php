@@ -32,10 +32,12 @@ class ProductMeteredPriceRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -44,16 +46,19 @@ class ProductMeteredPriceRequest {
 	 public $end_quantity;// float
 
 
+
     /**
      * 
      */
 	 public $start_quantity;// float
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**

@@ -31,10 +31,12 @@ class SubscriptionItemHistoryResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $update_on;// string
+
 
 
     /**
@@ -43,10 +45,12 @@ class SubscriptionItemHistoryResponse {
 	 public $new_value;// float
 
 
+
     /**
      * 
      */
 	 public $description;// string
+
 
 
     /**

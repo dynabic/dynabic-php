@@ -29,10 +29,12 @@ class ChargeRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $amount;// float
+
 
 
     /**

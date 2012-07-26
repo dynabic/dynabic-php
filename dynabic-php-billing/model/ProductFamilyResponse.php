@@ -33,10 +33,12 @@ class ProductFamilyResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -45,10 +47,12 @@ class ProductFamilyResponse {
 	 public $description;// string
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -57,10 +61,12 @@ class ProductFamilyResponse {
 	 public $site_id;// int
 
 
+
     /**
      * 
      */
 	 public $products =  array();// array<ProductResponse>
+
 
 
     /**

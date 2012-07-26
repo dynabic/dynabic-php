@@ -29,10 +29,12 @@ class UserApiKeysResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $private_key;// string
+
 
 
     /**

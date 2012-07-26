@@ -47,10 +47,12 @@ class SubscriptionRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $product_id;// int
+
 
 
     /**
@@ -59,10 +61,12 @@ class SubscriptionRequest {
 	 public $is_cancelled_at_end_of_period;// bool
 
 
+
     /**
      * 
      */
 	 public $next_product;// ProductRequest
+
 
 
     /**
@@ -71,10 +75,12 @@ class SubscriptionRequest {
 	 public $next_product_pricing_plan;// PricingPlanRequest
 
 
+
     /**
      * 
      */
 	 public $customer;// CustomerRequest
+
 
 
     /**
@@ -83,10 +89,12 @@ class SubscriptionRequest {
 	 public $next_assesment;// string
 
 
+
     /**
      * 
      */
 	 public $cancellation_details;// string
+
 
 
     /**
@@ -95,10 +103,12 @@ class SubscriptionRequest {
 	 public $currency;// Currency
 
 
+
     /**
      * 
      */
 	 public $billing_address_id;// int
+
 
 
     /**
@@ -107,10 +117,12 @@ class SubscriptionRequest {
 	 public $product;// ProductRequest
 
 
+
     /**
      * 
      */
 	 public $product_pricing_plan;// PricingPlanRequest
+
 
 
     /**
@@ -119,10 +131,12 @@ class SubscriptionRequest {
 	 public $end_date;// string
 
 
+
     /**
      * 
      */
 	 public $credit_card_id;// int
+
 
 
     /**
@@ -131,10 +145,12 @@ class SubscriptionRequest {
 	 public $credit_card;// CreditCardRequest
 
 
+
     /**
      * 
      */
 	 public $current_ballance;// float
+
 
 
     /**
@@ -143,10 +159,12 @@ class SubscriptionRequest {
 	 public $pricing_plan_id;// int
 
 
+
     /**
      * 
      */
 	 public $start_date;// string
+
 
 
     /**
@@ -155,10 +173,12 @@ class SubscriptionRequest {
 	 public $customer_id;// int
 
 
+
     /**
      * 
      */
 	 public $billing_address;// AddressRequest
+
 
 
     /**

@@ -42,10 +42,12 @@ class TestData {
     );
 
 
+
     /**
      * 
      */
 	 public $applicationResponseList;// Array<ApplicationResponse>
+
 
 
     /**
@@ -54,10 +56,12 @@ class TestData {
 	 public $applicationPlanList;// Array<ApplicationPlan>
 
 
+
     /**
      * 
      */
 	 public $applicationInCompanyResponseList;// Array<ApplicationInCompanyResponse>
+
 
 
     /**
@@ -66,10 +70,12 @@ class TestData {
 	 public $companyInfoRequestList;// Array<CompanyInfoRequest>
 
 
+
     /**
      * 
      */
 	 public $companyInfoResponseList;// Array<CompanyInfoResponse>
+
 
 
     /**
@@ -78,10 +84,12 @@ class TestData {
 	 public $setActiveMarketingPlanResponseList;// Array<SetActiveMarketingPlanResponse>
 
 
+
     /**
      * 
      */
 	 public $eventResponseList;// Array<EventResponse>
+
 
 
     /**
@@ -90,10 +98,12 @@ class TestData {
 	 public $eventParamList;// Array<EventParam>
 
 
+
     /**
      * 
      */
 	 public $settingRequestList;// Array<SettingRequest>
+
 
 
     /**
@@ -102,10 +112,12 @@ class TestData {
 	 public $settingResponseList;// Array<SettingResponse>
 
 
+
     /**
      * 
      */
 	 public $siteResponseList;// Array<SiteResponse>
+
 
 
     /**
@@ -114,16 +126,19 @@ class TestData {
 	 public $siteRequestList;// Array<SiteRequest>
 
 
+
     /**
      * 
      */
 	 public $userResponseList;// Array<UserResponse>
 
 
+
     /**
      * 
      */
 	 public $userApiKeysResponseList;// Array<UserApiKeysResponse>
+
 
 
     /**

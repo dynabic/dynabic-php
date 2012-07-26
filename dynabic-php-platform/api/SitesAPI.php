@@ -27,6 +27,7 @@ class SitesAPI {
 	}
 
 
+
 	/**
 	 * GetSites
 	 *
@@ -50,9 +51,11 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($pageNumber != null) {
 			$resourcePath = str_replace("{pageNumber}", $this->apiClient->toPathValue($pageNumber), $resourcePath);
 		}
+
 		if($pageSize != null) {
 			$resourcePath = str_replace("{pageSize}", $this->apiClient->toPathValue($pageSize), $resourcePath);
 		}
@@ -73,6 +76,7 @@ class SitesAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -97,6 +101,7 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
@@ -116,6 +121,7 @@ class SitesAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -140,6 +146,7 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($siteSubdomain != null) {
 			$resourcePath = str_replace("{siteSubdomain}", $this->apiClient->toPathValue($siteSubdomain), $resourcePath);
 		}
@@ -159,6 +166,7 @@ class SitesAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -183,6 +191,7 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($siteName != null) {
 			$resourcePath = str_replace("{siteName}", $this->apiClient->toPathValue($siteName), $resourcePath);
 		}
@@ -203,6 +212,7 @@ class SitesAPI {
         }
         return $responseObjects;				
 	 }
+
 
 
 	/**
@@ -244,6 +254,7 @@ class SitesAPI {
 	 }
 
 
+
 	/**
 	 * UpdateSite
 	 *
@@ -267,6 +278,7 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}
@@ -286,6 +298,7 @@ class SitesAPI {
 				
 				
 	 }
+
 
 
 	/**
@@ -309,6 +322,7 @@ class SitesAPI {
         $headerParams = array();
     
 		
+
 		if($siteId != null) {
 			$resourcePath = str_replace("{siteId}", $this->apiClient->toPathValue($siteId), $resourcePath);
 		}

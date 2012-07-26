@@ -30,16 +30,19 @@ class SiteRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $subdomain;// string
+
 
 
     /**

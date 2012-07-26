@@ -45,10 +45,12 @@ class UserResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $user_roles;// string
+
 
 
     /**
@@ -57,10 +59,12 @@ class UserResponse {
 	 public $private_key;// string
 
 
+
     /**
      * 
      */
 	 public $deleted;// bool
+
 
 
     /**
@@ -69,10 +73,12 @@ class UserResponse {
 	 public $is_subscribed_to_newsletter;// bool
 
 
+
     /**
      * 
      */
 	 public $currency;// string
+
 
 
     /**
@@ -81,10 +87,12 @@ class UserResponse {
 	 public $country;// string
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -93,10 +101,12 @@ class UserResponse {
 	 public $first_name;// string
 
 
+
     /**
      * 
      */
 	 public $timezone;// string
+
 
 
     /**
@@ -105,10 +115,12 @@ class UserResponse {
 	 public $googleapps_user_name;// string
 
 
+
     /**
      * 
      */
 	 public $email;// string
+
 
 
     /**
@@ -117,10 +129,12 @@ class UserResponse {
 	 public $registration_date;// string
 
 
+
     /**
      * 
      */
 	 public $last_name;// string
+
 
 
     /**
@@ -129,10 +143,12 @@ class UserResponse {
 	 public $active;// bool
 
 
+
     /**
      * 
      */
 	 public $yahoo_user_name;// string
+
 
 
     /**
@@ -141,10 +157,12 @@ class UserResponse {
 	 public $facebook_id;// string
 
 
+
     /**
      * 
      */
 	 public $public_key;// string
+
 
 
     /**

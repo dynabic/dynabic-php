@@ -29,10 +29,12 @@ class CancellationRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $cancelationDetails;// string
+
 
 
     /**

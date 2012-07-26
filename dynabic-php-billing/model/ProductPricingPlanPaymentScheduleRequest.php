@@ -36,10 +36,12 @@ class ProductPricingPlanPaymentScheduleRequest {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -48,10 +50,12 @@ class ProductPricingPlanPaymentScheduleRequest {
 	 public $frequency_recurrence_factor;// int
 
 
+
     /**
      * 
      */
 	 public $frequency_interval;// int
+
 
 
     /**
@@ -60,10 +64,12 @@ class ProductPricingPlanPaymentScheduleRequest {
 	 public $subscription_period_change;// float
 
 
+
     /**
      * 
      */
 	 public $name;// string
+
 
 
     /**
@@ -72,16 +78,19 @@ class ProductPricingPlanPaymentScheduleRequest {
 	 public $frequency_relative_interval;// string
 
 
+
     /**
      * 
      */
 	 public $frequency_type;// string
 
 
+
     /**
      * 
      */
 	 public $end_date_offset_days;// int
+
 
 
     /**

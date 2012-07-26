@@ -32,10 +32,12 @@ class SettingResponse {
     );
 
 
+
     /**
      * 
      */
 	 public $id;// int
+
 
 
     /**
@@ -44,16 +46,19 @@ class SettingResponse {
 	 public $description;// string
 
 
+
     /**
      * 
      */
 	 public $name;// string
 
 
+
     /**
      * 
      */
 	 public $value;// string
+
 
 
     /**

@@ -29,10 +29,12 @@ class ReportIntValueItem {
     );
 
 
+
     /**
      * 
      */
 	 public $value;// int
+
 
 
     /**
